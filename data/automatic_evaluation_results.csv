@@ -1,0 +1,9 @@
+task,approach,mean_semantic_similarity,mean_token_edit_distance,mean_gt_perplexity,mean_prompt_perplexity,mean_rouge1_f_score,mean_rouge2_f_score,mean_rougeL_f_score,mean_classifier_prediction_app,mean_classifier_prediction_inapp,mean_classifier_prediction
+neutralization,llama,0.67,0.55,66.41,29.49,0.79,0.66,0.73,0.38,0.62,0.6
+neutralization,llama_ppo,0.18,0.04,66.41,18.36,0.41,0.16,0.27,0.93,0.07,0.03
+snippet_generation,argsme,0.24,0.03,34.61,67.72,0.29,0.28,0.29,0.18,0.82,0.79
+snippet_generation,bart,0.35,0.04,34.61,50.86,0.4,0.38,0.38,0.3,0.7,0.69
+snippet_generation,llama,0.13,0.0,34.61,26.5,0.24,0.11,0.16,0.54,0.46,0.42
+both,bart,0.35,0.04,34.61,50.86,0.4,0.38,0.38,0.3,0.7,0.69
+both,llama,0.11,0.0,34.61,19.95,0.25,0.1,0.17,0.82,0.18,0.13
+both,snippet_comparison,0.31,0.07,50.86,19.95,0.43,0.21,0.33,0.82,0.18,0.13
